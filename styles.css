@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+}
+
+.recipe-page {
+  width: min(77vw, 460px);
+  margin: auto;
+  padding: 20px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Young Serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: -1.3em;
+  margin-bottom: 15px;
+  color: hsl(332, 51%, 32%);
+}
+
+.value {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.time ul {
+  margin: 0;
+}
+.time ul li {
+  padding: 0.25em 0.25em 0.25em 1em;
+}
+
+.ingredients {
+  margin: 0;
+}
+
+.ingredients li {
+  padding-left: 1em;
+}
+
+.instructions {
+  margin: 0;
+}
+.instructions li {
+  padding: 5px 5px 5px 1em;
+}
+
+table {
+  margin: 0;
+}
